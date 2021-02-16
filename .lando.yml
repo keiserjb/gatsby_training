@@ -3,7 +3,7 @@ name: nitflex
 recipe: drupal8
 config:
   webroot: drupal/web
-
+  composer_version: 1-latest
 proxy:
   node:
     - gatsby.lndo.site:8000

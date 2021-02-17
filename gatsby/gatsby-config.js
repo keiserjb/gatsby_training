@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-drupal',
       options: {
-        baseUrl: 'http://nitflex.lndo.site/',
+        baseUrl: 'http://nitflex.lndo.site:8080/',
         // apiBase: `api`, // optional, defaults to `jsonapi`
       }
     }
